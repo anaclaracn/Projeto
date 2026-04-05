@@ -30,11 +30,4 @@ const corsOptions = {
   maxAge: 3600,
 };
 
-/**
- * Alternativa simples para desenvolvimento
- * Descomemente a linha abaixo para aceitar QUALQUER origem
- * CUIDADO: Use apenas em desenvolvimento!
- */
-// const corsOptions = { origin: '*' };
-
 module.exports = cors(corsOptions);
